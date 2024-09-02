@@ -12,4 +12,9 @@ export default defineConfig({
     assetsDir: '.',
     // brotliSize: false,
   },
+  server: {
+    watch: {
+      usePolling: true,
+    }
+  }
 })

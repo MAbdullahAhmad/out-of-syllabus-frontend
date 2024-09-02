@@ -26,6 +26,7 @@
         "@core":         ["./src/core/index.ts"      ],
         "@pages":        ["./src/pages/index.ts"     ],
         "@partials":     ["./src/partials/index.ts"  ],
+        "@styles/*":     ["./src/styles/*"],
       }
     },
     "include": [
